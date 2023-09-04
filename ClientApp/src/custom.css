@@ -1,0 +1,71 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+    margin: 5px;
+}
+
+.btn-dark{
+    margin: 5px;
+    float: right;
+}
+.btn-secondary{
+    margin: 5px;
+    float: right;
+}
+form {
+    /* Posicion del formulario en la página */
+    margin:10px auto;
+    width: 400px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+}
+input {
+    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+     Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+    font: 1em sans-serif;
+    /* Tamaño uniforme del campo de texto */
+    width: 300px;
+    box-sizing: border-box;
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 1px solid #999;
+}
+
+.button {
+    /* Alinear los botones con los campos de texto */
+    padding-left: 300px; /* mismo tamaño que los elementos de la etiqueta */
+   
+}
+
+
+
+
+
+
